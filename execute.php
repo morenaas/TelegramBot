@@ -4,7 +4,7 @@
 		require 'functions.php';
 		
 		//TokenTelegram
-		$api ='TokenTelegram';
+		$api ='1638052119:AAFNqPaGTzKIHZCGkKR2Am2kg3WtC1xhCwk';
 
 		
 		
