@@ -50,12 +50,9 @@
 		
 		
 		
-		if($text = "ciao"|| $text=="/ciao"){
-			$text = "Benvenuto sulla pagina del Bot del IIS8Marzo";
-			$parameters = array('chat_id' => $chatId, "text" => $text);
-		}
 		
-                if($text == "ciao"|| $text=="/foto"){
+		
+                if($text == "ciao"|| $text=="/ciao"){
 			$text = "Benvenuto sulla pagina del bot dell'8 marzo";
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
