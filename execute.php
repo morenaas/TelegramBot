@@ -55,7 +55,7 @@
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 		
-                if($text == "ciao"){
+                if($text == "ciao"|| $text=="/foto"){
 			$text = "Benvenuto sulla pagina del bot dell'8 marzo";
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
@@ -69,7 +69,7 @@
 			sendFoto($chatid, "foto.jpg", false, "descrizione foto", $api);
 		}
 
-		if($text == "barze"){
+		if($text == 'barz'|| $text=='/barz'){
 			$barze[0] = "che cos'è una zebra? un cavallo evaso dal carcere";
 			$barze[1] = "colmo tuffatore? 
 		}
