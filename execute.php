@@ -48,22 +48,16 @@
 		//i parametri sono cosa voglio mandare indietro al mio utente
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		
-		
-		
-		
-		
-                if($text == "ciao"|| $text=="/ciao"){
+		 if($text == "ciao"|| $text=="/ciao"){
 			$text = "Benvenuto sulla pagina del bot dell'8 marzo";
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 
-		if($text == "data"){
-			$text = "La data è: ".date("d.m.y");
-			$parameters = array('chat_id' => $chatId, "text" => $text);
-		}
+		
+		
 
 		if($text == "foto"){
-			sendFoto($chatid, "foto.jpg", false, "descrizione foto", $api);
+			sendFoto($chatid, "foto.jpg", false, "la mia foto", $api);
 		}
 
 		if($text == 'barz'|| $text=='/barz'){
